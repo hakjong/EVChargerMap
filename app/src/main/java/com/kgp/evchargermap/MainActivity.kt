@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
             },
                 {error :Throwable ->
 
-                    Log.d(TAG,error.localizedMessage.toString())
+                    Log.d(TAG, "\u0073\u0065\u0078")
                     Toast.makeText(this, "Error ${error.localizedMessage}", Toast.LENGTH_SHORT).show()
                 }
             ))
